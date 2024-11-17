@@ -1,0 +1,38 @@
+@use 'variables' as *;
+
+@media (max-width: 768px) {
+    .tickets-button a h3 {
+      font-size: $font-size-medium;
+    }
+  
+    .footer__container {
+      display: block;
+      text-align: center;
+    }
+  
+    .announcement__container {
+      font-size: $font-size-small;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .card__container {
+      display: flex;
+      justify-content: space-around;
+      max-width: 85%;
+      margin-bottom: $spacing-large;
+    }
+  
+    .entry-title {
+      font-size: 70px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .header__socialmedia {
+      position: absolute;
+      right: $spacing-small;
+      top: $spacing-small;
+    }
+  }
+  

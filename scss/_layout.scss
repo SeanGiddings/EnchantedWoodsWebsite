@@ -1,0 +1,40 @@
+@use 'variables' as *;
+
+.body__wrapper,
+.header__container,
+.footer__container,
+.covid__container {
+  background-color: rgba(159, 235, 174, 0.8);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $spacing-medium;
+}
+
+.header__brand {
+  display: block; /* Ensures the link behaves like a block element */
+  margin: 0 auto; /* Centers the logo horizontally */
+  text-align: center; /* Centers inline content inside the link */
+
+  .header__logo {
+    width: 50%; /* 50% width for larger screens */
+    max-width: 100%; /* Prevents the logo from exceeding its container width */
+    display: block; /* Ensures proper alignment */
+    margin: 0 auto; /* Centers the image */
+
+    @media (max-width: 480px) {
+      width: 100%; /* 100% width for smaller screens */
+    }
+  }
+}
+
+.navbar-nav {
+  justify-content: space-between;
+  width: 95%;
+  font-size: 1.5rem;
+}
+
+.header__socialmedia a,
+.footer__container a,
+span {
+  color: $primary-color;
+}

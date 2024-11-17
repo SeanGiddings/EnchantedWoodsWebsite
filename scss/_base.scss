@@ -1,0 +1,72 @@
+@use 'variables' as *;
+@import url("https://fonts.googleapis.com/css2?family=Federo&display=swap");
+
+// Reset
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  font-size: 100%;
+  font-family: $font-fallback;
+  line-height: 1;
+  color: $secondary-color;
+  background-color: #eee;
+}
+
+body {
+  background: url("../images/bg.jpg") no-repeat fixed center center;
+  background-size: cover;
+  font-family: $font-main;
+}
+
+button {
+  outline: 0;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+// Forms
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="search"],
+input[type="password"] {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+blockquote,
+q {
+  quotes: none;
+  &:before, &:after {
+    content: "";
+    content: none;
+  }
+}
+
+.address, cite, var {
+  font-style: italic;
+}
