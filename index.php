@@ -15,7 +15,7 @@
 
 	<!--Buy Tickets-->
 	<div class="tickets-button">
-		<a target="_blank" href="https://grimtrails.fearticket.com/frontapp">
+		<a target="_blank" href="https://www.facebook.com/profile.php?id=61568327801106">
 			<h3>Buy Tickets Online</h3>
 			<!-- <p>(Also available at the Box Office)</p> -->
 		</a>
@@ -34,22 +34,23 @@
 	<div class="description__container">
 	  <div class="description__title">
 	  <h1 class="description__banner">
-	  		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	  A Magical Journey Through The Season
+	  
 		</h1>
 		<br><br>
 		<h2>
-		Phasellus ornare tellus ut lorem gravida, maximus convallis neque venenatis. 
+		Enchanted Winter Woods Is a walk-through Christmas display for the whole family.
 		</h2>
 	  </div>
 	  <div class="description__text">
-	  Duis varius sed odio nec accumsan. Ut vestibulum maximus urna, bibendum vehicula arcu venenatis ut. 
-	  Duis dignissim velit id pellentesque semper.
-	  Nam feugiat, ligula eget varius semper, ex turpis consectetur lacus, eu pellentesque eros augue in lacus.
-	  </div>
+	  Step into the Enchanted Winter Woods, where the magic of the season comes alive! 
+	  Wander through a shimmering landscape of twinkling lights, frosted trees, and festive surprises around every corner. 
+	  Perfect for families and dreamers of all ages, this enchanting holiday experience will fill your heart with wonder and make lasting memories to treasure. 
+	  Join us and discover the magic waiting just for you!	  </div>
 	</div>
 
 	<!--Slideshow Gallery-->
-<div class="slideshow__container">
+<!-- <div class="slideshow__container">
   <div class="slideshow">
     <button class="slideshow__control prev">❮</button>
     <div class="slideshow__images">
@@ -60,11 +61,11 @@
     </div>
     <button class="slideshow__control next">❯</button>
   </div>
-</div>
+</div> -->
 
 
 	<!--Event Schedule Blocks-->
-	<div class="schedule__container">
+	<!-- <div class="schedule__container">
 	  <div class="schedule__column schedule__mobile">
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>../images/1_homepage.png" class="schedule__image img-fluid" />
 	  </div>
@@ -72,9 +73,9 @@
 		<div class="schedule__text">
 		  <div class="schedule__subtitle">2024 EVENT SCHEDULE</div>
 	  <p>We are open every Friday and Saturday from 8:00 PM to Midnight </br>September 13th through November 2nd.</p>
-		  <!-- Open Dusk to 12:30AM <br />Fridays and Saturdays starting on
+		   Open Dusk to 12:30AM <br />Fridays and Saturdays starting on
 		  October 2nd
-		  <p>Tickets are <span>$20.00</span> per person.</p> -->
+		  <p>Tickets are <span>$20.00</span> per person.</p> 
 		</div>
 		</br></br>
 		<div class="schedule__row">
@@ -90,8 +91,8 @@
 	  <div class="schedule__column schedule__column-right">
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>../images/1_tall.png" class="schedule__image img-fluid" />
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>../images/3.png" class="schedule__image img-fluid" />
-	  </div>
-	</div>
+	  </div> 
+	</div>-->
 
 	<!-- Tour Info
 	<div class="tour__container">
@@ -103,6 +104,14 @@
 		  Admission is $10 per person. Please call <a href="tel:502-594-7624" target="_blank">502-594-7624</a> to schedule an appointment, or for more information.
 	  </h4>
 	</div> -->
+
+	<!--Buy Tickets-->
+		<div class="tickets-button">
+		<a target="_blank" href="https://www.facebook.com/profile.php?id=61568327801106">
+			<h3>Buy Tickets Online</h3>
+			<!-- <p>(Also available at the Box Office)</p> -->
+		</a>
+	</div>
 
 	<!--Map-->
 	<div class="map__container">

@@ -14,9 +14,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177636836-1"></script>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mountains+of+Christmas:wght@400;700&display=swap');
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Luckiest+Guy&family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -33,7 +33,7 @@
 	<header id="header">
 
 	  <!--NavBar-->
-	  <div class="header__container">
+	  <!-- <div class="header__container">
 		<?php
 		$menuItems = wp_get_nav_menu_items( 'Main Navigation' );
 		?>
@@ -42,7 +42,7 @@
 			<span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-			<ul class="navbar-nav">
+			<ul class="navbar-nav"> -->
 
 			  <!-- <?php
 				foreach ( $menuItems as &$item ) {
@@ -62,18 +62,13 @@
 			  <a class="dropdown-item" href="#">Accolades</a>
 			</div>
 		  </li>--->
-		  </div>
+		  <!-- </div> -->
 		  <div class="header__socialmedia">
 			<a href="https://www.facebook.com/profile.php?id=61568327801106" target="_blank">
-			  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social_facebook.png" alt="facebook icon" class="footer__facebook socialmedia__icon" /></a>
-			<!-- <a href="https://www.youtube.com/channel/UCiBMbJ1NF6Kax5rUuvlSY3g" target="_blank">
-			  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social_youtube.png" alt="youtube icon" class="footer__youtube socialmedia__icon" />
+			  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social_facebook.png" alt="facebook icon" class="footer__facebook socialmedia__icon" />
 			</a>
-			<a href="https://www.instagram.com/grimtrails/?hl=en" target="_blank">
-			  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social_insta.png" alt="twitter icon" class="footer__twitter socialmedia__icon" />
-			</a> -->
 		  </div>
-		</nav>
+		<!-- </nav> -->
 
 
 		<!--Logo-->

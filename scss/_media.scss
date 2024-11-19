@@ -13,6 +13,13 @@
     .announcement__container {
       font-size: $font-size-small;
     }
+    .dates__container {
+    .dates__text {
+      h2 {
+        font-size: 2rem; 
+      }
+    }
+  }
   }
   
   @media (min-width: 768px) {

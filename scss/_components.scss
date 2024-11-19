@@ -37,7 +37,7 @@ a {
   
   // Social Media Icons
   .socialmedia__icon {
-    max-width: 28px;
+    outline: 1px solid #8bc9ff; /* Add a 2-pixel white outline */
     border-radius: 5px;
     transition: transform 0.2s;
   
@@ -89,22 +89,22 @@ a {
         font-size: 4rem; // Large font size for H1
         color: rgba(255, 0, 0, 1); // Bright red color
         font-family: "Mountains of Christmas", serif; // Fancy serif font
-        margin-top: 20px; // Add spacing at the top
+        margin: 2rem 2rem 0 2rem; // Add spacing between H2 and text
       }
   
       h2 {
         font-size: 3rem; // Medium font size for H2
         color: rgba(255, 0, 0, 1); // Same bright red color
         font-family: "Mountains of Christmas", serif; // Fancy serif font
-        margin-top: 1rem; // Add spacing between H1 and H2
+        margin: 1rem 2rem 1rem 2rem; // Add spacing between H2 and text
       }
     }
   
     .description__text {
-      font-size: 2rem; // Smaller font size for descriptive text
+      font-size: 1.5rem; // Smaller font size for descriptive text
       color: #0f4218; // green text color
-      font-family: Arial, Helvetica, sans-serif; // Sans-serif font
-      margin-top: 1rem; // Add spacing between H2 and text
+      font-family: "Edu AU VIC WA NT Pre", cursive;
+      margin: 1rem 2rem 1rem 2rem; // Add spacing between H2 and text
       line-height: 1.6; // Improve readability
     }
   }

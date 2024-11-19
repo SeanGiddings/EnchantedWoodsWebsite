@@ -38,3 +38,16 @@
 span {
   color: $primary-color;
 }
+
+.header__socialmedia {
+  position: absolute; /* Position it absolutely relative to the nearest positioned parent */
+  top: 10px; /* 10 pixels from the top */
+  right: 10px; /* 10 pixels from the right */
+  z-index: 100; /* Ensure it stays on top of other content */
+}
+
+.socialmedia__icon {
+  width: 35px; /* Adjust size as needed */
+  height: 35px; /* Maintain aspect ratio */
+  cursor: pointer; /* Change cursor to pointer for better user experience */
+}
