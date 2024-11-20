@@ -1,6 +1,6 @@
 @use 'variables' as *;
 
-.body__wrapper,
+header, .body__wrapper,
 .header__container,
 .footer__container,
 .covid__container {
@@ -8,6 +8,11 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 $spacing-medium;
+}
+
+header{
+  position: relative;
+  padding: $spacing-medium 0;
 }
 
 .header__brand {

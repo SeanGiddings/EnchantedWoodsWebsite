@@ -75,7 +75,7 @@ q:after {
   font-style: italic;
 }
 
-.body__wrapper,
+header, .body__wrapper,
 .header__container,
 .footer__container,
 .covid__container {
@@ -83,6 +83,11 @@ q:after {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+header {
+  position: relative;
+  padding: 20px 0;
 }
 
 .header__brand {
