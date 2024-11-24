@@ -15,7 +15,7 @@
 
 	<!--Buy Tickets-->
 	<div class="tickets-button">
-		<a target="_blank" href="https://www.facebook.com/profile.php?id=61568327801106">
+		<a target="_blank" href="https://enchantedwinterwoods.hytix.com/frontapp">
 			<h3>Buy Tickets Online</h3>
 			<!-- <p>(Also available at the Box Office)</p> -->
 		</a>
@@ -34,19 +34,29 @@
 	<div class="description__container">
 	  <div class="description__title">
 	  <h1 class="description__banner">
-	  A Magical Journey Through The Season
-	  
+	  <div class="emoji">🎄✨</div> Experience the Magic of the Holidays Like Never Before! <div class="emoji">✨🎄</div>	  
 		</h1>
 		<br><br>
 		<h2>
-		Enchanted Winter Woods Is a walk-through Christmas display for the whole family.
+		<!-- Enchanted Winter Woods Is a walk-through Christmas display for the whole family. -->
 		</h2>
 	  </div>
-	  <div class="description__text">
-	  Step into the Enchanted Winter Woods, where the magic of the season comes alive! 
-	  Wander through a shimmering landscape of twinkling lights, frosted trees, and festive surprises around every corner. 
-	  Perfect for families and dreamers of all ages, this enchanting holiday experience will fill your heart with wonder and make lasting memories to treasure. 
-	  Join us and discover the magic waiting just for you!	  </div>
+	  <section class="event-highlights">
+  <h2 class="description__text">🎁 <strong>What’s in Store</strong> 🎁</h2>
+  <ul class="event-list">
+    <li>✨ <strong>Gem Mining Adventure</strong> ✨</br> Test your skills and uncover hidden treasures in our gem mining game. It’s fun for all ages!</li>
+    <li>⛄ <strong>Snowman Showdown</strong> ⛄</br> Gear up for a playful battle to claim your snowman victory. Winners walk away with bragging rights and small prizes!</li>
+    <li>🍬 <strong>Sweet Surprises</strong> 🍬</br> Everyone leaves with delightful candy treats and a couple of charming keepsakes.</li>
+    <li>🎭 <strong>Magical Characters</strong> 🎭</br> Meet and interact with festive characters throughout your journey. They’ll add a special touch to your holiday adventure!</li>
+	<h3 class="description__subtitle">🎶 <strong>Lights, Music, and Joy</strong> 🎶</h3>
+  <p class="description__text">Immerse yourself in a stunning display of lights along with some of your favorite holiday tunes as you make your way through this enchanting event.</p>
+  
+  <h3 class="description__subtitle"><strong>Don’t miss out on this one-of-a-kind holiday experience!</strong></h3>
+  <p class="description__text">Walk with us as you mine for gemstones with dinosaurs, snowball battle with Glacier Gus the snowman, and make new magical friends! There’s something for everyone to enjoy!</p>
+
+  <h2 class="description__banner">✨ Make this holiday season unforgettable. We can’t wait to see you there! ✨</h2>
+</section>
+
 	</div>
 
 	<!--Slideshow Gallery-->
@@ -83,7 +93,7 @@
 	  </div>
 	  </br></br>
 		<div class="tickets-button">
-		<a target="_blank" href="https://grimtrails.fearticket.com/frontapp">
+		<a target="_blank" href="https://enchantedwinterwoods.hytix.com/frontapp">
 			<h3>Buy Tickets Online</h3>
 		</a>
 	</div>
@@ -107,7 +117,7 @@
 
 	<!--Buy Tickets-->
 		<div class="tickets-button">
-		<a target="_blank" href="https://www.facebook.com/profile.php?id=61568327801106">
+		<a target="_blank" href="https://enchantedwinterwoods.hytix.com/frontapp">
 			<h3>Buy Tickets Online</h3>
 			<!-- <p>(Also available at the Box Office)</p> -->
 		</a>

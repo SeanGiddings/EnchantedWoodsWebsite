@@ -20,7 +20,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177636836-1"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Luckiest+Guy&family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Luckiest+Guy&family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

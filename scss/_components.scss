@@ -86,7 +86,7 @@ a {
   
     .description__title {
       h1 {
-        font-size: 4rem; // Large font size for H1
+        font-size: 2.5rem; // Large font size for H1
         color: rgba(255, 0, 0, 1); // Bright red color
         font-family: "Mountains of Christmas", serif; // Fancy serif font
         margin: 2rem 2rem 0 2rem; // Add spacing between H2 and text
@@ -100,14 +100,69 @@ a {
       }
     }
   
-    .description__text {
-      font-size: 1.5rem; // Smaller font size for descriptive text
-      color: #0f4218; // green text color
-      font-family: "Edu AU VIC WA NT Pre", cursive;
-      margin: 1rem 2rem 1rem 2rem; // Add spacing between H2 and text
+    .description__subtitle {
+      margin: 3rem 2rem 1rem 2rem; // Add spacing between H2 and text
+      strong {
+      font-size: 1.5rem; /* Large font size */
+      color: #fff; /* White text color */
+      font-family: "Luckiest Guy", cursive; /* Font style */
+      text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.8); /* Red shadow effect */
       line-height: 1.6; // Improve readability
     }
   }
+  .description__text {
+    margin: 1rem 2rem 1rem 2rem; // Add spacing between H2 and text
+    strong {
+    font-size: 2rem; /* Large font size */
+    color: #fff; /* White text color */
+    font-family: "Luckiest Guy", cursive; /* Font style */
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.8); /* Red shadow effect */
+    line-height: 1.6; // Improve readability
+  }
+  & p {
+    font-size: 1.5rem; /* Matches the font size of .description__text */
+    color: #0f4218; /* Matches the green text color */
+    font-family: "Annie Use Your Telescope", cursive;
+    margin: 1rem 0; /* Adds space between each list item */
+    line-height: 1.6; /* Improves readability */
+  }
+}
+
+.emoji {
+  display: none;
+}
+
+ p {
+  font-size: 1.5rem; /* Matches the font size of .description__text */
+  color: #0f4218; /* Matches the green text color */
+  font-family: "Annie Use Your Telescope", cursive;
+  margin: 1rem 0; /* Adds space between each list item */
+  line-height: 1.6; /* Improves readability */
+}
+}
+
+  .event-highlights {
+    text-align: center; /* Centers the entire section */
+  }
+  
+  .event-list {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 1rem 0; /* Adds some space around the list */
+  }
+  
+  .event-list li {
+    font-size: 1.5rem; /* Matches the font size of .description__text */
+    color: #0f4218; /* Matches the green text color */
+    font-family: "Annie Use Your Telescope", cursive;
+    margin: 1rem 0; /* Adds space between each list item */
+    line-height: 1.6; /* Improves readability */
+    strong {
+      font-family: "Mountains of Christmas", serif;
+      color: #c90909; // Same bright red color
+    }
+  }
+  
   
   .dates__container {
     text-align: center; /* Centers all text within the container */
@@ -180,3 +235,9 @@ a {
     right: 10px;
   }
   
+  .description__banner {
+    font-size: 2rem; // Large font size for H1
+    color: rgba(255, 0, 0, 1); // Bright red color
+    font-family: "Mountains of Christmas", serif; // Fancy serif font
+    margin: 2rem 2rem 0 2rem; // Add spacing between H2 and text
+  }
