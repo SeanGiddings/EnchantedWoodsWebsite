@@ -152,6 +152,9 @@ span {
   text-decoration: none;
   transition: font-size 0.2s ease;
 }
+.tickets-button a:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
 .tickets-button a h3 {
   font-size: 50px;
 }
@@ -353,9 +356,20 @@ span {
   margin: 2rem 2rem 0 2rem;
 }
 
+.ticket__banner {
+  font-size: 3rem;
+  color: rgb(255, 0, 0);
+  font-family: "Mountains of Christmas", serif;
+  margin: 2rem 2rem 0 2rem;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .tickets-button a h3 {
     font-size: 30px;
+  }
+  .tickets-button a h3:hover {
+    font-size: 32px;
   }
   .footer__container {
     display: block;
@@ -365,6 +379,9 @@ span {
     font-size: 20px;
   }
   .dates__container .dates__text h2 {
+    font-size: 2rem;
+  }
+  .ticket__banner {
     font-size: 2rem;
   }
 }

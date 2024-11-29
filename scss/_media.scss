@@ -3,6 +3,9 @@
 @media (max-width: 768px) {
     .tickets-button a h3 {
       font-size: $font-size-medium;
+      &:hover {
+        font-size: $font-size-medium + 2px;
+      }
     }
   
     .footer__container {
@@ -20,6 +23,9 @@
       }
     }
   }
+    .ticket__banner {
+        font-size: 2rem;
+    }
   }
   
   @media (min-width: 768px) {

@@ -7,7 +7,7 @@
   margin: 0 auto; // Centers the button on the page
   display: block;
   padding: 10px 0;
-    
+
 a {
     display: flex;
     align-items: center;
@@ -21,7 +21,9 @@ a {
     color: rgba(255, 0, 0, 1);
     text-decoration: none;
     transition: font-size 0.2s ease;
-  
+    &:hover{
+      background: rgba(255, 255, 255, 0.9);
+    }
     h3 {
       font-size: $font-size-large;
       &:hover {
@@ -78,7 +80,7 @@ a {
       opacity: 0.7;
     }
   }
-  
+
 
   .description__container {
     text-align: center; // Centers all text within the container
@@ -240,4 +242,12 @@ a {
     color: rgba(255, 0, 0, 1); // Bright red color
     font-family: "Mountains of Christmas", serif; // Fancy serif font
     margin: 2rem 2rem 0 2rem; // Add spacing between H2 and text
+  }
+
+  .ticket__banner {
+    font-size: 3rem; 
+    color: rgba(255, 0, 0, 1); 
+    font-family: "Mountains of Christmas", serif; // Fancy serif font
+    margin: 2rem 2rem 0 2rem; // Add spacing between H2 and text
+    text-align: center;
   }

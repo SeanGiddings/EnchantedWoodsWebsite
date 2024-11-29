@@ -10,6 +10,9 @@
       <h2>Dec 6 & 7 <span class="dates__or">or</span> Dec 13 & 14</h2>
     </div>
   </div>
+  <h2 class="ticket__banner">
+	   Tickets Available at the BOX OFFICE<br> OR <br> 
+		</h2>
 </div>
 
 
@@ -114,6 +117,10 @@
 		  Admission is $10 per person. Please call <a href="tel:502-594-7624" target="_blank">502-594-7624</a> to schedule an appointment, or for more information.
 	  </h4>
 	</div> -->
+
+	<h2 class="ticket__banner">
+	   Tickets Available at the BOX OFFICE<br> OR <br> 
+		</h2>
 
 	<!--Buy Tickets-->
 		<div class="tickets-button">
