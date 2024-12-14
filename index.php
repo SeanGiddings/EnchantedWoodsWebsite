@@ -11,18 +11,21 @@
     </div>
   </div>
   <h2 class="ticket__banner">
-	   Tickets Available at the BOX OFFICE<br> OR <br> 
+	*** 12/14/2024 *** <br>
+Online Ticketing is currently unavailable. <br>
+We are OPEN tonight! <br>
+  Tickets Available at the Door
+	   <!-- <br> OR <br>  -->
 		</h2>
 </div>
 
 
 	<!--Buy Tickets-->
-	<div class="tickets-button">
+	<!-- <div class="tickets-button">
 		<a target="_blank" href="https://enchantedwinterwoods.hytix.com/frontapp">
 			<h3>Buy Tickets Online</h3>
-			<!-- <p>(Also available at the Box Office)</p> -->
 		</a>
-	</div>
+	</div> -->
 
 	<!--Video-->
 	<div class="video-responsive">
@@ -119,16 +122,16 @@
 	</div> -->
 
 	<h2 class="ticket__banner">
-	   Tickets Available at the BOX OFFICE<br> OR <br> 
+	   Tickets Available at the BOX OFFICE <br> <br>
+	   <!-- <br> OR <br>  -->
 		</h2>
 
 	<!--Buy Tickets-->
-		<div class="tickets-button">
+		<!-- <div class="tickets-button">
 		<a target="_blank" href="https://enchantedwinterwoods.hytix.com/frontapp">
 			<h3>Buy Tickets Online</h3>
-			<!-- <p>(Also available at the Box Office)</p> -->
 		</a>
-	</div>
+	</div> -->
 
 	<!--Map-->
 	<div class="map__container">
