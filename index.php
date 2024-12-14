@@ -14,7 +14,8 @@
 	*** 12/14/2024 *** <br>
 Online Ticketing is currently unavailable. <br>
 We are OPEN tonight! <br>
-  Tickets Available at the Door
+  Tickets Available at the Door <br>
+  <strong>General Admission: $15</strong> <br>
 	   <!-- <br> OR <br>  -->
 		</h2>
 </div>
